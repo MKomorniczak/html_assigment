@@ -3,22 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <h1>Register</h1>
-    <h3>Please fill in this form to create an account.</h3>
+
 
 </head>
+<style>
+    .login {
+        background-color: cadetblue;
+        margin: auto;
+    }
+
+    .footer {
+        background-color: grey;
+    }
+
+    .reg-button {
+        background-color: brown;
+        color: bisque;
+        padding: 15px 20px;
+        width: 10%;
+    }
+</style>
 <body>
-<p>First name</p>
-<input type="text" name="enter first name"/>
+<header>
+    <nav>
+        <a href="#">Register</a>
+        <a href="#">Information</a>
+    </nav>
+</header>
+<div class="login">
+    <form>
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <label>First name</label>
+        <input type="text" name="enter first name"/>
 
-<p>Last name</p>
-<input type="text" name="enter last name"/>
+        <label>Last name</label>
+        <input type="text" name="enter last name"/>
 
-<p>Email</p>
-<input type="text" name="enter email"/>
+        <label>Email</label>
+        <input type="text" name="enter email"/>
 
-<p>Course</p>
-<input type="text" name="enter course"/>
+        <label>Course</label>
+        <select>
+            <option value="java">Java</option>
+            <option value="c#">C#</option>
+            <option value="python">Python</option>
 
+        </select>
+        <button type="submit" class="reg-button">Register</button>
+    </form>
+</div>
+
+<footer>
+    <div class="footer">
+        Footer place
+    </div>
+</footer>
 </body>
 </html>
