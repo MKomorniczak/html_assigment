@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+    max-width: 1024px;
+    margin: auto;
+}
+h1 {
+    background-color: aqua;
+    float: left;
+    display: block;
+    text-align: left;
+    width: 30%;
+}
+li {
+    display: inline;
+}
+
+.elements {
+    float: left;
+    width: 40%;
+    text-align: center;
+    background-color: aquamarine;
+    padding-bottom: 19px;
+}
+.link {
+    float: left;
+    width: 25%;
+    text-align: right;
+    background-color: aqua;
+    padding-bottom: 19px;
+}
+
+.container{
+    float: left;
+    padding: 200px;
+    background-color: coral;
+
+}
+.headline {
+    position: relative;
+}
+
+.art1 {
+    float: left;
+    width: 50%;
+
+}
+
+
