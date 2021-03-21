@@ -10,20 +10,23 @@ h1 {
     text-align: left;
     width: 30%;
 }
+
 li {
     display: inline;
 }
 
+
 .elements {
     float: left;
     width: 40%;
-    text-align: center;
+
     background-color: aquamarine;
     padding-bottom: 19px;
+
 }
 .link {
     float: left;
-    width: 25%;
+    width: 26%;
     text-align: right;
     background-color: aqua;
     padding-bottom: 19px;
@@ -31,18 +34,39 @@ li {
 
 .container{
     float: left;
-    padding: 200px;
-    background-color: coral;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 80px;
+    background-color: antiquewhite;
+    padding: 34px;
+    width: 60%;
+    grid-template-areas:
+    'header header header header header header'
+    'left left middle middle right right'
+    'footer footer footer footer footer footer';
 
 }
 .headline {
-    position: relative;
+    grid-area: header;
+}
+
+.paragraph {
+    grid-area: middle;
 }
 
 .art1 {
-    float: left;
-    width: 50%;
+    grid-area: left;
 
+}
+
+aside {
+    background-color: coral;
+    padding-bottom: 183px;
+    text-align: center;
+}
+
+footer {
+    background-color: cadetblue;
 }
 
 
